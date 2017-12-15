@@ -4,7 +4,7 @@ import android.content.Context
 import eu.kanade.tachiyomi.source.Source
 
 
-class PreferencesHelper(val context: Context) {
+class PreferencesHelper(context: Context) {
 
     fun sourceUsername(source: Source): String = throw Exception("Stub!")
 
