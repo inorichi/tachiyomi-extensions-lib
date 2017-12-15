@@ -1,9 +1,10 @@
 package eu.kanade.tachiyomi.data.preference
 
+import android.content.Context
 import eu.kanade.tachiyomi.source.Source
 
 
-class PreferencesHelper {
+class PreferencesHelper(val context: Context) {
 
     fun sourceUsername(source: Source): String = throw Exception("Stub!")
 
