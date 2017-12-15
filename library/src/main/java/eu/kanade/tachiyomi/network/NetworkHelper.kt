@@ -8,4 +8,6 @@ class NetworkHelper(context: Context) {
     val client: OkHttpClient = throw Exception("Stub!")
 
     val cloudflareClient: OkHttpClient = throw Exception("Stub!")
+
+    val cookies : PersistentCookieStore
 }
