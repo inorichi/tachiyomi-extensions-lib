@@ -1,6 +1,5 @@
 package eu.kanade.tachiyomi.source.online
 
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
 import eu.kanade.tachiyomi.network.NetworkHelper
 import eu.kanade.tachiyomi.source.CatalogueSource
 import eu.kanade.tachiyomi.source.model.*
@@ -20,11 +19,6 @@ abstract class HttpSource : CatalogueSource {
      * Network service.
      */
     protected val network: NetworkHelper = throw Exception("Stub!")
-
-    /**
-     * Network service.
-     */
-    protected val preferences: PreferencesHelper = throw Exception("Stub!")
 
     /**
      * Base url of the website without the trailing slash, like: http://mysite.com

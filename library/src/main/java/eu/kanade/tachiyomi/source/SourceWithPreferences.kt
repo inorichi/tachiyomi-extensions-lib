@@ -7,5 +7,6 @@ import android.content.SharedPreferences
  */
 interface SourceWithPreferences {
 
-    fun getSharedPreference(): SharedPreferences
+    var sharedPreference: SharedPreferences
+
 }
