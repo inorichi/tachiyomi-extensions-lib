@@ -1,12 +1,13 @@
 package eu.kanade.tachiyomi.source.online
 
 import eu.kanade.tachiyomi.source.Source
+import eu.kanade.tachiyomi.source.SourceWithPreferences
 import okhttp3.Response
 import rx.Observable
 
 /**
  */
-interface LoginSource : Source {
+interface LoginSource : Source, SourceWithPreferences{
 
     fun isLogged(): Boolean
 
