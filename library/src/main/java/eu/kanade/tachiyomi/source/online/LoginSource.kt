@@ -13,8 +13,6 @@ interface LoginSource : Source, SourceWithPreferences{
 
     fun login(username: String, password: String): Observable<Boolean>
 
-    fun isAuthenticationSuccessful(response: Response): Boolean
-
     fun getUserName() : String
 
     fun getPassword() : String
