@@ -15,4 +15,10 @@ interface LoginSource : Source, SourceWithPreferences{
 
     fun isAuthenticationSuccessful(response: Response): Boolean
 
+    fun getUserName() : String
+
+    fun getPassword() : String
+
+    fun setUserNameAndPassword(username: String, password: String)
+
 }
